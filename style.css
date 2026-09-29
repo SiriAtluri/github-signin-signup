@@ -1,0 +1,131 @@
+*{
+    /* border: 1px solid red; */
+}
+
+.gh-navbar{
+    background-color: #ffffff;
+    border-bottom: 1px solid #d0d7de;
+}
+
+#navbarSupportedContent{
+    margin-left: 10%;
+}
+
+.gh-navbar .nav-link{
+    color: #24292f;
+    font-weight: 500;
+}
+
+.gh-navbar .nav-link:hover{
+    color: #0969da;
+}
+
+.gh-logo{
+    width: 32px;
+    height: 32px;
+}
+
+.gh-search{
+    width: 300px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+}
+
+.gh-search:focus{
+    border-color: #0969da;
+    box-shadow: none;
+}
+
+.gh-btn{
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.section1{
+    padding: 80px 0;
+}
+
+.section1 h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.section1 p{
+    font-size: 20px;
+    color: #57606a;
+}
+
+.section1 .btn{
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.section2{
+    background-color: #f6f8fa;
+    padding: 60px 0;
+}
+
+.section2 h1{
+    font-size: 48px;
+}
+
+.section2 p{
+    font-size: 20px;
+    color: #57606a;
+}
+
+.section3{
+    padding: 70px 0;
+}
+
+.section3 img{
+    width: 100%;
+}
+
+.section4{
+    background-color: #f6f8fa;
+    padding: 70px 0;
+}
+
+.section4 h1{
+    font-size: 48px;
+}
+
+.section4 p{
+    font-size: 20px;
+    color: #57606a;
+}
+
+.section5{
+    padding: 70px 0;
+}
+
+.section5 h1{
+    font-size: 48px;
+}
+
+.section5 p{
+    font-size: 20px;
+    color: #57606a;
+}
+
+.section5 .btn{
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.gh-footer{
+    background-color: #24292f;
+    color: white;
+    padding: 50px 0;
+}
+
+.gh-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.gh-footer a:hover{
+    text-decoration: underline;
+}
