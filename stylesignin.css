@@ -1,0 +1,105 @@
+/* Dark theme colors in one place */
+:root {
+  --gh-bg: #0d1117;
+  --gh-footer-bg: #161b22;
+  --gh-border: #30363d;
+  --gh-text: #f0f6fc;
+  --gh-muted: #9198a1;
+  --gh-link: #4493f8;
+  --gh-green: #238636;
+  --gh-btn-dark: #21262d;
+}
+
+body {
+  background-color: var(--gh-bg);
+  color: var(--gh-text);
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.signin-box {
+  width: 100%;
+  max-width: 352px;
+  padding: 40px 16px;
+}
+
+
+.form-control {
+  background-color: var(--gh-bg);
+  border: 1px solid var(--gh-border);
+  color: var(--gh-text);
+  height: 40px;
+}
+
+.form-control:focus {
+  background-color: var(--gh-bg);
+  color: var(--gh-text);
+  border-color: var(--gh-link);
+  box-shadow: 0 0 0 2px rgba(68, 147, 248, 0.4);
+}
+
+
+.gh-link {
+  color: var(--gh-link);
+}
+{
+  text-decoration: underline !important;
+}
+
+.btn-gh-green {
+  background-color: var(--gh-green);
+  border: 1px solid rgba(240, 246, 252, 0.1);
+  color: #fff;
+  height: 40px;
+}
+
+.btn-gh-green:hover {
+  background-color: #2ea043;
+  color: #fff;
+}
+
+
+.btn-gh-dark {
+  background-color: var(--gh-btn-dark);
+  border: 1px solid var(--gh-border);
+  color: var(--gh-text);
+  height: 40px;
+}
+
+  background-color: #30363d;
+  color: var(--gh-text);
+}
+
+.google-g {
+  color: #425af4;
+}
+
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--gh-border);
+}
+
+
+.gh-footer {
+  background-color: var(--gh-footer-bg);
+}
+
+.gh-footer a {
+  color: var(--gh-muted);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.gh-footer a:hover {
+  color: var(--gh-link);
+  text-decoration: underline;
+}

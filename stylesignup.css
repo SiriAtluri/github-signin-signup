@@ -1,0 +1,97 @@
+/* Only the custom parts. Bootstrap handles the rest. */
+
+
+.left-panel {
+  background: #000;
+  overflow: hidden;
+  padding: 60px 24px 0 15%;
+}
+
+.left-content {
+  max-width: 340px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.glow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45%;
+  background: linear-gradient(to top, #7c4dff 0%, #2a1a6e 45%, transparent 100%);
+}
+
+
+.mascot {
+  position: absolute;
+  z-index: 1;
+}
+
+.cat {
+  width: 90px;
+  height: 100px;
+  left: 46%;
+  bottom: 22%;
+  background: linear-gradient(160deg, #d68bff, #8a4dff);
+  border-radius: 50% 50% 45% 45%;
+}
+
+.robot {
+  width: 100px;
+  height: 90px;
+  left: 32%;
+  bottom: 8%;
+  background: linear-gradient(160deg, #ffb3f5, #a66bff);
+  border-radius: 45%;
+}
+
+.duck {
+  width: 75px;
+  height: 85px;
+  left: 61%;
+  bottom: 10%;
+  background: linear-gradient(160deg, #ffd45c, #ff9a2e);
+  border-radius: 50%;
+}
+
+
+.form-wrap {
+  max-width: 400px;
+  padding: 60px 24px 40px;
+  margin-left: 15%;
+}
+
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #d0d7de;
+}
+
+.hint {
+  font-size: 10px;
+  color: #59636e;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 767px) {
+  .left-panel {
+    padding: 40px 24px;
+    min-height: 420px;
+  }
+  .form-wrap {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
